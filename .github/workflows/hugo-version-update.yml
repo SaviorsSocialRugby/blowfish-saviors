@@ -51,3 +51,4 @@ jobs:
           labels: dependencies, automated pr
           branch: hugo-new-version
           base: dev
+
