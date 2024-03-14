@@ -27,6 +27,14 @@
       {{- partial "sponsors.html" . -}}
       {{- partial "next-match.html" . -}}
       {{- partial "last-match.html" . -}}
+
+      {{ with .Site.GetPage "ranking.md" }}
+        <h2 class="mt-8 text-2xl font-extrabold mb-10">Classifica - Girone D</h2>
+        <div class="prose dark:prose-invert m-auto max-w-fit text-xl">
+          {{ .Content | markdownify | emojify }}
+        </div>
+    {{ end }}
+
     {{ end }}
     {{ block "main" . }}{{ end }}
     {{ if and (.Site.Params.footer.showScrollToTop | default true) (gt .WordCount 1) }}
