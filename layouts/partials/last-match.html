@@ -1,3 +1,4 @@
+{{ if .Site.Params.last_match }}
 <h2 class="mt-8 text-2xl font-extrabold mb-10">Ultima Partita</h2>
 {{ $match := .Site.Params.last_match }}
 <section class="flex flex-col flex-nowrap items-center gap-5 sm:flex-row">
@@ -33,3 +34,4 @@
 <div class="flex items-center justify-center">
     <p class="text-sm h-full text-center">{{ $match.when_where }}</p>
 </div>
+{{ end }}
