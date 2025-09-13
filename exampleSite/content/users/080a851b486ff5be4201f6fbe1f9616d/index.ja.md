@@ -2,7 +2,7 @@
                 title: "merox.dev"
                 tags: [パーソナルサイト, ブログ, ドキュメント, cv]
                 externalUrl: "https://merox.dev"
-                weight: 84
+                weight: 901
                 showDate: false
                 showAuthor: false
                 showReadingTime: false

@@ -2,7 +2,7 @@
                 title: "vividscc.com"
                 tags: [ビジネスサイト]
                 externalUrl: "https://vividscc.com/"
-                weight: 22
+                weight: 221
                 showDate: false
                 showAuthor: false
                 showReadingTime: false

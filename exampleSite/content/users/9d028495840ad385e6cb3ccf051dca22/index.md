@@ -2,7 +2,7 @@
                 title: "mucahitkurtlar.github.io"
                 tags: [Personal site]
                 externalUrl: "https://mucahitkurtlar.github.io"
-                weight: 4
+                weight: 31
                 showDate: false
                 showAuthor: false
                 showReadingTime: false

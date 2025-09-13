@@ -2,7 +2,7 @@
                 title: "todreamr.github.io"
                 tags: [パーソナルサイト]
                 externalUrl: "https://todreamr.github.io/"
-                weight: 60
+                weight: 621
                 showDate: false
                 showAuthor: false
                 showReadingTime: false

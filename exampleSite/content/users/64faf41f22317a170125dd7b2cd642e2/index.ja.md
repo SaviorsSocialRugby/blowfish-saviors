@@ -2,7 +2,7 @@
                 title: "adir1.com"
                 tags: [パーソナルサイト]
                 externalUrl: "https://adir1.com/"
-                weight: 19
+                weight: 181
                 showDate: false
                 showAuthor: false
                 showReadingTime: false

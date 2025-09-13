@@ -2,7 +2,7 @@
                 title: "rejowski.xyz"
                 tags: [Personal Site]
                 externalUrl: "https://rejowski.xyz/"
-                weight: 50
+                weight: 511
                 showDate: false
                 showAuthor: false
                 showReadingTime: false

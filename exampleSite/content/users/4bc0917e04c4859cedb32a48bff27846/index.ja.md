@@ -2,7 +2,7 @@
                 title: "code-chimp.com"
                 tags: [パーソナルサイト]
                 externalUrl: "https://code-chimp.com"
-                weight: 3
+                weight: 21
                 showDate: false
                 showAuthor: false
                 showReadingTime: false

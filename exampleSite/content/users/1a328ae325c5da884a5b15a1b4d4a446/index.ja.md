@@ -2,7 +2,7 @@
                 title: "innerknowing"
                 tags: [パーソナルサイト, モデラー]
                 externalUrl: "https://innerknowing.xyz/en/"
-                weight: 62
+                weight: 641
                 showDate: false
                 showAuthor: false
                 showReadingTime: false

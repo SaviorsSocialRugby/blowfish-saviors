@@ -2,7 +2,7 @@
                 title: "brendanwallace.github.io"
                 tags: [个人网站]
                 externalUrl: "https://brendanwallace.github.io"
-                weight: 5
+                weight: 41
                 showDate: false
                 showAuthor: false
                 showReadingTime: false

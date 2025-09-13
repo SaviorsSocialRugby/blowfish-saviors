@@ -2,7 +2,7 @@
                 title: "georgiancodeclub.github.io"
                 tags: [Sito del club universitario]
                 externalUrl: "https://georgiancodeclub.github.io"
-                weight: 8
+                weight: 71
                 showDate: false
                 showAuthor: false
                 showReadingTime: false

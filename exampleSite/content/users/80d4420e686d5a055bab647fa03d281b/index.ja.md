@@ -2,7 +2,7 @@
                 title: "talkdimsum.com"
                 tags: [アプリサイト]
                 externalUrl: "https://talkdimsum.com/"
-                weight: 27
+                weight: 271
                 showDate: false
                 showAuthor: false
                 showReadingTime: false

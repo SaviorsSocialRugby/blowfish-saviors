@@ -2,7 +2,7 @@
                 title: "insidemordecai.com"
                 tags: [パーソナルサイト]
                 externalUrl: "https://insidemordecai.com"
-                weight: 11
+                weight: 101
                 showDate: false
                 showAuthor: false
                 showReadingTime: false

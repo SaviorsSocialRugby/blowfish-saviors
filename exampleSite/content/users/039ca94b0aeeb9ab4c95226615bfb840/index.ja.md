@@ -2,7 +2,7 @@
                 title: "dizzytech.de"
                 tags: [パーソナルサイト]
                 externalUrl: "https://dizzytech.de"
-                weight: 17
+                weight: 161
                 showDate: false
                 showAuthor: false
                 showReadingTime: false

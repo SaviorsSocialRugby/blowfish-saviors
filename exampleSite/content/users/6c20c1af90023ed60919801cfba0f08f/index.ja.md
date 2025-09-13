@@ -2,7 +2,7 @@
                 title: "loisvelasco.is-a.dev"
                 tags: [パーソナルサイト]
                 externalUrl: "https://loisvelasco.is-a.dev"
-                weight: 10
+                weight: 91
                 showDate: false
                 showAuthor: false
                 showReadingTime: false

@@ -2,7 +2,7 @@
                 title: "utrodus.com"
                 tags: [ポートフォリオサイト, ブログ]
                 externalUrl: "https://utrodus.com"
-                weight: 79
+                weight: 821
                 showDate: false
                 showAuthor: false
                 showReadingTime: false
