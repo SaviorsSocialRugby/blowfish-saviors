@@ -3,45 +3,41 @@
 <link rel="stylesheet" href="css/infinite.css" />
 <script src="js/main.js"></script>
 <div class="marquee-wrapper" style="user-select: none">
-  <div class="marquee-content scrollingX">
-    {{ $num := 0 }} {{ range $images }}
-    <div class="card-testimonial flex items-center">
-      <article>
-        <picture>
-          {{ if .site }}
-          <a href="{{ .site }}" target="_blank"
-            ><img src="{{ .img }}" alt="{{ .img }}"
-          /></a>
-          {{ else }}
-          <img src="{{ .img }}" alt="{{ .img }}" />
-          {{ end }}
-        </picture>
-        {{ if .name }}
-        <article class="short-description">
-          <p class="text-center mt-1">{{ .name }}</p>
-        </article>
-        {{ end }}
-      </article>
+    <div class="marquee-content scrollingX">
+        {{ $num := 0 }} {{ range $images }}
+        <div class="card-testimonial flex items-center">
+            <article>
+                <picture>
+                    {{ if .site }}
+                    <a href="{{ .site }}" target="_blank"><img src="{{ .img }}" alt="{{ .img }}" /></a>
+                    {{ else }}
+                    <img src="{{ .img }}" alt="{{ .img }}" />
+                    {{ end }}
+                </picture>
+                {{ if .name }}
+                <article class="short-description">
+                    <p class="text-center mt-1">{{ .name }}</p>
+                </article>
+                {{ end }}
+            </article>
+        </div>
+        {{ $num = add $num 1 }} {{ end }} {{ $num := 0 }} {{ range $images }}
+        <div class="card-testimonial flex items-center">
+            <article>
+                <picture>
+                    {{ if .site }}
+                    <a href="{{ .site }}" target="_blank"><img src="{{ .img }}" alt="{{ .img }}" /></a>
+                    {{ else }}
+                    <img src="{{ .img }}" alt="{{ .img }}" />
+                    {{ end }}
+                </picture>
+                {{ if .name }}
+                <article class="short-description">
+                    <p class="text-center mt-1">{{ .name }}</p>
+                </article>
+                {{ end }}
+            </article>
+        </div>
+        {{ $num = add $num 1 }} {{ end }}
     </div>
-    {{ $num = add $num 1 }} {{ end }} {{ $num := 0 }} {{ range $images }}
-    <div class="card-testimonial flex items-center">
-      <article>
-        <picture>
-          {{ if .site }}
-          <a href="{{ .site }}" target="_blank"
-            ><img src="{{ .img }}" alt="{{ .img }}"
-          /></a>
-          {{ else }}
-          <img src="{{ .img }}" alt="{{ .img }}" />
-          {{ end }}
-        </picture>
-        {{ if .name }}
-        <article class="short-description">
-          <p class="text-center mt-1">{{ .name }}</p>
-        </article>
-        {{ end }}
-      </article>
-    </div>
-    {{ $num = add $num 1 }} {{ end }}
-  </div>
 </div>

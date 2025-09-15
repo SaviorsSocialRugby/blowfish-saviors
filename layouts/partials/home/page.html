@@ -3,10 +3,10 @@
     {{ with .Title }}
       <header>
         <h1>{{ . | emojify }}</h1>
-      </header>
+      </header>  
     {{ end }}
   {{ end }}
-  <section>{{ .Content }}</section>
+  <section class="w-full">{{ .Content }}</section>
 </article>
 <section>
   {{ partial "recent-articles/main.html" . }}
